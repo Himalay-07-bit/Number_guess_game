@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/background.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center{
+    background: transparent;
+    height: 50%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+
+}
+.first{
+    display: flex;
+    margin-bottom: 50px;
+}
+#ip{
+    margin: 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+}
+#ip:focus{
+    outline: none;
+    box-shadow: none;
+    border: none; /* Optional: removes border if added by default */
+}
+
+#btn{
+    margin: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 1rem;
+    height: 55px;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+#btn:hover
+.second{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#attempts, #result, #lastGuess{
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size: 1.5rem;
+}
